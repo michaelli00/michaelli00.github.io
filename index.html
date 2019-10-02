@@ -7,12 +7,16 @@
   <meta name="description" content="An awesome site that showcases my work!">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/grids-responsive-min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/6706b21a63.js" crossorigin="anonymous"></script>
 </head>
-
 <body>
-  <header>
+  <!-- <header>
     <p>Michael Li</p>
     <nav>
       <ul>
@@ -102,10 +106,80 @@
       </li>
     </ul>
     <p>&copy; 2019 - Michael Li - All rights reserved</p>
-  </footer>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </footer> -->
+  <nav class="navbar navbar-expand-md">
+    <a class="navbar-brand" href="#">Michael Li</a>
+    <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="main-navigation">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <header class="page-header header container-fluid">
+      <div class="overlay">
+        <div class="description">
+          <h1>Michael Li</h1>
+          <p>
+            Stuff
+          </p>
+          <button class="btn btn-outline-secondary btn-lg">Tell Me More!</button>
+        </div>
+      </div>
+  </header>
+  <div class="container features">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <h3 class="feature-title">Stray Animal Map</h3>
+          <img src="#" class="img-fluid">
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+            <h3 class="feature-title">PrintN'Pass</h3>
+            <img src="#" class="img-fluid">
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+            <h3 class="feature-title">Grade Calculator</h3>
+            <img src="#" class="img-fluid">
+        </div>
+      </div>
+    </div>
+    <footer class="page-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-12">
+                <a href="mailto:mli25782@terpmail.umd.edu"> 
+                  <i class="fa fa-envelope-o fa-3x" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12">
+                <a href="https://github.com/mli25782">
+                  <i class="fab fa-github fa-3x" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12">
+                <a href="https://www.linkedin.com/in/michaelli00/">
+                  <i class="fab fa-linkedin-in fa-3x" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12">
+                <a href="/Users/mli25782/Desktop/Career/PDF_Technical_Resume.pdf">
+                  <i class="far fa-file fa-3x" aria-hidden="true"></i>
+                </a>
+            </div>
+          </div>
+        </div>
+    </footer>
+  <script src="main.js"></script>
 </body>
 
 </html>
