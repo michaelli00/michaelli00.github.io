@@ -168,3 +168,18 @@ body {
 	height: 400px;
 	width: 350px;
 }
+.bullet-pt{
+	text-align: left;
+}
+.center-title{
+	text-align: center;
+}
+.fa-github{
+	color: white;
+}
+.fa-envelope-o{
+	color: red;
+}
+.fa-file{
+	color: purple;
+}

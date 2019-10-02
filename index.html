@@ -16,97 +16,6 @@
   <script src="https://kit.fontawesome.com/6706b21a63.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <!-- <header>
-    <p>Michael Li</p>
-    <nav>
-      <ul>
-        <li>
-            <a href="/">Home</a>
-        </li>
-        <li>
-            <a href="#projects">Projects</a>
-        </li>
-        <li>
-            <a href="/about">About</a>
-        </li>
-        <li>
-            <a href="#contact">Contact</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-      <section id="intro">
-        <h1>Hi, I'm Michael.</h1>
-        <p>A User Experience Designer and Frontend Web Developer.</p>
-        <img src="http://via.placeholder.com/800x400" alt="Placeholder image">
-      </section>
-      <section id="projects">
-          <h2>Projects</h2>
-          <ul>
-            <li>
-              <article>
-                <header>
-                  <h3>Stray Animal Map</h3>
-                </header>
-                <p>
-                  Cool Stuff
-                </p>
-                <footer>
-                  <p>
-                    <a href="https://devpost.com/software/stray-animal-map">See More</a>
-                  </p>
-                </footer>
-              </article>
-            </li>
-            <li>
-              <article>
-                <header>
-                  <h3>PrintN'Pass</h3>
-                </header>
-                <p>
-                  Cool Stuff
-                </p>
-                <footer>
-                  <p>
-                    <a href="https://devpost.com/software/printnpass-ato8dl">See More</a>
-                  </p>
-                </footer>
-              </article>
-            </li>
-            <li>
-              <article>
-                <header>
-                  <h3>Grade Calculator</h3>
-                </header>
-                <p>
-                  Cool Stuff
-                </p>
-                <footer>
-                  <p>
-                    <a href="https://mli25782.github.io/Grade-Calculator/">See More</a>
-                  </p>
-                </footer>
-              </article>
-            </li>
-          </ul>
-      </section>
-  </main>
-  <footer>
-    <ul>
-      <li>
-        <p>
-          Email: <a href="mailto:mli25782@terpmail.umd.edu">mli25782@terpmail.umd.edu</a>
-        </p>
-      </li>
-      <li>
-        <p>
-          GitHub: <a href="https://github.com/mli25782">Link</a>
-        </p>
-      </li>
-    </ul>
-    <p>&copy; 2019 - Michael Li - All rights reserved</p>
-  </footer> -->
   <nav class="navbar navbar-expand-md">
     <a class="navbar-brand" href="#">Michael Li</a>
     <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
@@ -115,13 +24,10 @@
     <div class="collapse navbar-collapse" id="main-navigation">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="#">Home</a>
+          <a class="nav-link" href="#projects">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="#contact">Contact</a>
         </li>
       </ul>
     </div>
@@ -137,29 +43,70 @@
         </div>
       </div>
   </header>
-  <div class="container features">
+  <div id="projects" class="container features">
+    <h2 class="center-title"><b>Past Projects</b></h2>
+    <br>
+    <br>
       <div class="row">
         <div class="col-lg-4 col-md-4 col-sm-12">
           <h3 class="feature-title">
             <a href="https://devpost.com/software/stray-animal-map">Stray Animal Map</a>
           </h3>
           <img src="strayanimal.jpg" class="app-pic">
+          <p>
+            <ul>
+              <li class="bullet-pt">
+                Crowdsourcing Android app that allows users to report and to view nearby stray animal sightings on a map.
+                Information collected from the report (user current location, images, and descriptions of the animal) is sent to Esri
+                Cloud Services, after which the map is updated with the new stray animal sighting. 
+              </li>
+              <br>
+              <li class="bullet-pt">
+                Worked on the app UI, using Java and XML to incorporate map services and to add button and camera
+                functionality onto the app.
+              </li>
+            </ul>
+          </p>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-12">
             <h3 class="feature-title">
               <a href="https://devpost.com/software/printnpass-ato8dl">PrintN'Pass</a>
             </h3>
             <img src="printnpass.jpg" class="app-pic">
+            <p>
+                <ul>
+                  <li class="bullet-pt">
+                      Password manager that uses an Android app to create an encrypted master password through fingerprint
+                      identification and a webserver to generate a unique password by hashing (SHA-256) the decrypted master
+                      password with the website domain. The app and chrome extension auto-fill the login credentials on the website.
+                  </li>
+                  <br>
+                  <li class="bullet-pt">
+                      Created the fingerprint activity and other UI features for the app using Java and XML.
+                  </li>
+                </ul>
+            </p>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-12">
             <h3 class="feature-title">
                 <a href="https://mli25782.github.io/Grade-Calculator/">Grade Calculator</a>
             </h3>
             <img src="gradecalculator.jpg" class="web-pic">
+            <p>
+                <ul>
+                  <li class="bullet-pt">
+                    Web application that allows users to calculate their grade in a class with weighted categories.
+                  </li>
+                  <br>
+                  <li class="bullet-pt">
+                    Created using HTML, CSS, and Javascript.
+                  </li>
+                </ul>
+              </p>
         </div>
       </div>
     </div>
-    <footer class="page-footer">
+    <footer id="contact"class="page-footer">
         <div class="container">
           <div class="row">
             <div class="col-lg-3 col-md-3 col-sm-12">
@@ -178,7 +125,7 @@
                 </a>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-12">
-                <a href="resume.pdf">
+                <a href="https://mli25782.github.io/resume/">
                   <i class="far fa-file fa-3x" aria-hidden="true"></i>
                 </a>
             </div>
