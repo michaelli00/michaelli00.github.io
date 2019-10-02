@@ -31,7 +31,7 @@ body {
 /*--- header ---*/
 
 .header {
-	background-image: url('images/header-background.jpg');
+	background-image: url("background.jpg");
 	background-size: cover;
 	background-position: center;
 	position: relative;
@@ -159,4 +159,12 @@ body {
 
 .row{
 	text-align: center;	
+}
+.app-pic{
+	height: 400px;
+	width: 225px;
+}
+.web-pic{
+	height: 400px;
+	width: 350px;
 }
