@@ -7,14 +7,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mli25782/portfolio_website.git"
+    "url": "git+https://github.com/michaelli00/portfolio_website.git"
   },
   "author": "Michael Li",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mli25782/portfolio_website/issues"
+    "url": "https://github.com/michaelli00/portfolio_website/issues"
   },
-  "homepage": "https://github.com/mli25782/portfolio_website#readme",
+  "homepage": "https://github.com/michaelli00/portfolio_website#readme",
   "description": "",
   "dependencies": {
     "bootstrap": "file:bootstrap"
